@@ -1,4 +1,4 @@
-package me.jeweltot.springboot008;
+package me.jeweltot.springboot008.proxyBase;
 
 public interface EventService
 {

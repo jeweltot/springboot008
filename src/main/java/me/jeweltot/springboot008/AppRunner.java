@@ -1,5 +1,6 @@
 package me.jeweltot.springboot008;
 
+import me.jeweltot.springboot008.proxyBase.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

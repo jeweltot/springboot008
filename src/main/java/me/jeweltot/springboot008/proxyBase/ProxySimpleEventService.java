@@ -1,4 +1,5 @@
-package me.jeweltot.springboot008;
+/*
+package me.jeweltot.springboot008.proxyBase;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
@@ -33,3 +34,4 @@ public class ProxySimpleEventService implements EventService
         simpleEventService.deleteEvent();
     }
 }
+*/

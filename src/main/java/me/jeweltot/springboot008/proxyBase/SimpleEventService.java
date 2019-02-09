@@ -1,10 +1,12 @@
-package me.jeweltot.springboot008;
+package me.jeweltot.springboot008.proxyBase;
 
+import me.jeweltot.springboot008.aopBase.PerfLogging;
 import org.springframework.stereotype.Service;
 
 @Service
 public class SimpleEventService implements EventService
 {
+    @PerfLogging
     @Override
     public void createEvent()
     {
@@ -20,6 +22,7 @@ public class SimpleEventService implements EventService
         System.out.println("create event");
     }
 
+    @PerfLogging
     @Override
     public void publishEvent()
     {
