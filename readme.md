@@ -22,10 +22,10 @@
     <artifactId>spring-boot-starter-aop</artifactId>
 </dependency>
 ```
-    * 애스팩트 정의
+   * 애스팩트 정의
         * @Aspect
         * 빈으로 등록해야 하니까 (컴포넌트 스캔을 사용한다면) @Component도 추가.
-    * 포인트컷 정의
+   * 포인트컷 정의
         * @Pointcut(표현식)
         * 주요 표현식
             * execution
@@ -33,11 +33,11 @@
             * bean
         * 포인트컷 조합
             * &&, ||, !
-    * 어드바이스 정의
+   * 어드바이스 정의
         * @Before
         * @AfterReturning
         * @AfterThrowing
         * @Around
         
-    * 참고
+   * 참고
 https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#aoppointcuts
